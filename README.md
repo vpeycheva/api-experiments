@@ -1,6 +1,9 @@
 # Flask Rest API
 
 This code is a self explanatory code, I got from [impythonist](https://impythonist.wordpress.com/2015/07/12/build-an-api-under-30-lines-of-code-with-python-and-flask/) blog.
+
+I decided to go with sqlite, since its easy and fast, one posible upgrade of the task
+would be to go with docker-compose with flask and mysql.
 ## To run the api
 1. Execute `pip3 install -r requirements.txt `
 2. Execute `./server.py`
